@@ -62,11 +62,11 @@ resource app 'Microsoft.App/containerApps@2023-04-01-preview' = {
             }
             {
               name: 'AZURE_OPENAI_COMPLETION_DEPLOYMENT_NAME'
-              value: 'gpt-35-turbo'
+              value: 'gpt-4o'
             }
             {
               name: 'AZURE_OPENAI_VERSION'
-              value: '2024-02-01'
+              value: '2024-08-06'
             }
             {
               name: 'OPENAI_API_TYPE'
@@ -74,11 +74,11 @@ resource app 'Microsoft.App/containerApps@2023-04-01-preview' = {
             }
             {
               name: 'AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME'
-              value: 'text-embedding-ada-002'
+              value: 'text-embedding-3-small'
             }
             {
               name: 'AZURE_OPENAI_EMBEDDING_MODEL'
-              value: 'text-embedding-ada-002'
+              value: 'text-embedding-3-small'
             }
           ]
           resources: {
